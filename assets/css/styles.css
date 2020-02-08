@@ -1,3 +1,6 @@
+h1 {
+  font-family: 'Audiowide';
+}
 .ml5 {
     position: relative;
     font-weight: 300;
@@ -6,94 +9,42 @@
     font-family: 'Audiowide', cursive;
   
   }
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
   
-  .ml5 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.1em;
-    padding-right: 0.05em;
-    padding-bottom: 0.15em;
-    line-height: 1em;
-  }
+*, a:hover { color:#fff; text-decoration: none;}
   
-  .ml5 .line {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    height: 3px;
-    width: 100%;
-    background-color: #fff;
-    transform-origin: 0.5 0;
-  }
-  
-  .ml5 .ampersand {
-    font-family: Baskerville, "EB Garamond", serif;
-    font-style: italic;
-    font-weight: 400;
-    width: 1em;
-    margin-right: -0.1em;
-    margin-left: -0.1em;
-  }
-  
-  .ml5 .letters {
-    display: inline-block;
-    /*opacity: 0;*/
-  }
-  body {
-    background-color:#ce3635;
-    text-align: center;
-    color:#fff;
-    padding-top:10em;
-  }
-  
-  *, a:hover { color:#fff; text-decoration: none;}
-  .typewrite {
-      font-family: 'Ubuntu', cursive;
-  
-  }
-  #footer {
-      /* display: block; */
-          font-family: 'Ubuntu', cursive;
-  
-     position:absolute;
-     bottom:0;
-     text-align: center;
-     width:100%;
-     padding: 10px;
-     /* height:30px;   Height of the footer */
-     /* background:rgb(44, 52, 56); */
-  }
-  #footer a, #footer a:hover {
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid #fff;
-  }
-  
-  html,
-  body {
-     margin:0;
-     padding:0;
-     height:100%;
-     background: url('/assets/images/bg.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  #container {
-     min-height:100%;
-     position:relative;
-  }
-  #header {
-     /* background:#ff0; */
-     padding:10px;
-  }
-  #body {
-     padding:10px;
-     padding-bottom:60px;   /* Height of the footer */
-      }
-  #container {
-     height:100%;
-  }
+.footer {
+  margin-top: 100px;
+}
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+    background: url('/assets/images/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Ubuntu';
+  text-align: center;
+  color:#fff;
+}
+#container {
+    min-height:100%;
+    position:relative;
+    height:100%;
+}
+#header {
+    padding:10px;
+}
+#body {
+  padding-bottom:20px;
+}
